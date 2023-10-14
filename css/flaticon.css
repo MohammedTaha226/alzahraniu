@@ -1,0 +1,51 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 12/02/2019 01:42
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+flaticon-phone-call
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+font-style: normal;
+}
+
+
+.flaticon-cell-phone:before { content: "\f100"; }
+.flaticon-menu:before { content: "\f101"; }
+.flaticon-right-arrow:before { content: "\f102"; }
+.flaticon-back:before { content: "\f103"; }
+.flaticon-house:before { content: "\f104"; }
+.flaticon-award:before { content: "\f105"; }
+.flaticon-sketch:before { content: "\f106"; }
+.flaticon-customer-support:before { content: "\f107"; }
+.flaticon-paint:before { content: "\f108"; }
+.flaticon-volleyball-net:before { content: "\f109"; }
+.flaticon-wall:before { content: "\f10a"; }
+.flaticon-circus:before { content: "\f10b"; }
+.flaticon-company:before { content: "\f10c"; }
+.flaticon-shade:before { content: "\f10d"; }
+.flaticon-beach:before { content: "\f10e"; }
+.flaticon-facebook-logo:before { content: "\f10f"; }
+.flaticon-twitter:before { content: "\f110"; }
+.flaticon-google-maps:before { content: "\f111"; }
+.flaticon-instagram:before { content: "\f112"; }
+.flaticon-youtube:before { content: "\f113"; }
+.flaticon-cancel-music:before { content: "\f114"; }

@@ -1,0 +1,236 @@
+/*Big Size Screens*/
+@media (min-width: 991px) and (max-width:1200px)
+{
+	.header .menuHeader .menu li a
+	{
+		padding:0 10px
+	}
+}
+
+/* small Screens & tablets & Smart phone */
+@media (max-width: 991px) 
+{
+	
+	.header .menuHeader
+	{
+		padding:15px 0
+	}
+	
+	.header .menuHeader .menu
+	{
+		display:none;
+	}
+	
+	.header .openMenu
+	{
+		display:inline-block;
+		float:right
+	}
+	
+	.slider .slider-details
+	{
+		padding:150px 0 0
+	}
+	
+	.slider img
+	{
+		height:510px;
+	}
+	
+	.slider .slider-details .title
+	{
+		font-size:30px
+	}
+	
+	.slider .slider-details .desc
+	{
+		margin-bottom:30px
+	}
+	
+	.aboutUs .aboutIcons img
+	{
+		right:calc(50% - 328px);
+	}
+	
+	.aboutUs .aboutIcons .icon
+	{
+		margin:0 auto
+	}
+	
+	.aboutUs .aboutContent
+	{
+		padding:30px 20px;
+		margin-top:30px
+	}
+	
+	.contactInfo .title,
+	.contactInfo .numb
+	{
+		float:none;
+		width:100%;
+		margin-bottom:20px
+	}
+	.contactInfo .title
+	{
+		margin:0 auto 20px;
+		text-align:center
+	}
+	
+	.contactInfo .numb
+	{
+		margin-right:0
+	}
+	
+	.footer .container-fluid
+	{
+		padding-top:110px
+	}
+	
+	.ModalPage .modal-dialog
+	{
+		width:auto
+	}
+	
+	
+}
+
+/* Small Screens */
+@media (min-width: 768px) and (max-width: 991px) 
+{
+	
+	
+}
+
+/* Mobile & Tablets */
+@media (max-width: 767px) 
+{
+	
+	.slider .slider-details
+	{
+		padding-top:100px
+	}
+	
+	.bx-wrapper .bx-pager.bx-default-pager
+	{
+		display:none;
+	}
+	
+	.header .centerHead .logo
+	{
+		margin:0 auto 15px;
+		float:none;
+	}
+	
+	.contactHead
+	{
+		float:none;
+		width:100%
+	}
+	
+	.contactHead .numbs
+	{
+		text-align:right
+	}
+	
+	.ModalPage .carousel-inner
+	{
+		margin-bottom:20px
+	}
+	
+	.ModalPage .details
+	{
+		padding-left:15px;
+		padding-right:15px;
+	}
+	
+	.ModalPage .popTel
+	{
+		font-size:20px
+	}
+	
+	.footer .footerDown 
+	{
+		text-align:center
+	}
+	
+	.footer .footerDown .logoTaha,
+	.footer .footerDown .copyRights
+	{
+		float:none;
+	}
+	
+	.footer .footerDown .copyRights
+	{
+		margin-top:15px;
+	}
+	
+}
+
+/* Tablets */
+@media (min-width:480px) and (max-width: 767px)
+{
+
+}
+
+/* Mobile */
+@media (max-width: 479px) 
+{
+	.aboutUs .aboutIcons
+	{
+		padding:70px 0 20px
+	}
+	
+	.aboutUs .aboutIcons .icon .title
+	{
+		padding-right:15px
+	}
+	
+	.aboutUs .aboutIcons .icon .title:before
+	{
+		right:15px
+	}
+	
+	.slider .slider-details
+	{
+		padding-top:85px
+	}
+	
+	.slider .slider-details .title
+	{
+		font-size:20px;
+		margin-bottom:15px;
+	}
+	.slider .slider-details .desc
+	{
+		font-size:17px;
+		margin-bottom:25px
+	}
+	
+	.slider .slider-details .btnSlider
+	{
+		width:105px;
+		margin:0
+	}
+		
+	.slider img {
+	    height: 375px;
+	}
+	
+	.the-slider-control
+	{
+		bottom:30px
+	}
+	
+	.breadCrumb
+	{
+		padding:100px 0 70px
+	}
+	.ModalPage .details .share li:not(:last-of-type)
+	{
+		margin-right:5px;
+	}
+	
+	
+	
+	
+}
